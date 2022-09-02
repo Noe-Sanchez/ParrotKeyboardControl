@@ -1,0 +1,1192 @@
+ parrot_keyboard_control_cgxe
+
+ Timestamp is 63125b06 (Fri Sep  2 14:35:34 2022)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000b9b0H .text$mn                CODE
+ 0001:0000b9b0 00000036H .text$mn$00             CODE
+ 0001:0000b9e6 00000092H .text$x                 CODE
+ 0002:00000000 00000318H .idata$5                DATA
+ 0002:00000318 00000028H .00cfg                  DATA
+ 0002:00000340 00000008H .CRT$XCA                DATA
+ 0002:00000348 00000008H .CRT$XCZ                DATA
+ 0002:00000350 00000008H .CRT$XIA                DATA
+ 0002:00000358 00000008H .CRT$XIZ                DATA
+ 0002:00000360 00000008H .CRT$XPA                DATA
+ 0002:00000368 00000008H .CRT$XPZ                DATA
+ 0002:00000370 00000008H .CRT$XTA                DATA
+ 0002:00000378 00000008H .CRT$XTZ                DATA
+ 0002:00000380 00000000H .gehcont$y              DATA
+ 0002:00000380 00000000H .gfids$y                DATA
+ 0002:00000380 00000300H .rdata                  DATA
+ 0002:00000680 00000008H .rdata$CastGuardVftablesA DATA
+ 0002:00000688 00000008H .rdata$CastGuardVftablesC DATA
+ 0002:00000690 000000b8H .rdata$voltmd           DATA
+ 0002:00000748 00000278H .rdata$zzzdbg           DATA
+ 0002:000009c0 00000008H .rtc$IAA                DATA
+ 0002:000009c8 00000008H .rtc$IZZ                DATA
+ 0002:000009d0 00000008H .rtc$TAA                DATA
+ 0002:000009d8 00000008H .rtc$TZZ                DATA
+ 0002:000009e0 000007c0H .xdata                  DATA
+ 0002:000011a0 00000088H .edata                  DATA
+ 0002:00001228 000000c8H .idata$2                DATA
+ 0002:000012f0 00000018H .idata$3                DATA
+ 0002:00001308 00000318H .idata$4                DATA
+ 0002:00001620 00000814H .idata$6                DATA
+ 0003:00000000 00002850H .data                   DATA
+ 0003:00002850 00000620H .bss                    DATA
+ 0004:00000000 00000924H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
+ 0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_native_entrypoint 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat_copy 0000000000000000     <absolute>
+ 0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000100       __guard_flags              0000000000000100     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       mexfilerequiredapiversion  0000000180001000 f   c_mexapi_version.obj
+ 0001:00000030       cgxe_parrot_keyboard_control_method_dispatcher 0000000180001030 f   parrot_keyboard_control_cgxe.obj
+ 0001:000000d0       method_dispatcher_3YttJ5tzdpTPtVQkledOMC 00000001800010d0 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001ef0       cgxe_3YttJ5tzdpTPtVQkledOMC_BuildInfoUpdate 0000000180002ef0 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00002080       cgxe_3YttJ5tzdpTPtVQkledOMC_fallback_info 0000000180003080 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00002120       mexFunction                0000000180003120 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00003e40       _ssSetInputPortDirectFeedThroughFcn 0000000180004e40 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00003fb0       _ssSetRWorkValueFcn        0000000180004fb0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00004030       _ssGetRWorkValueFcn        0000000180005030 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000040a0       _ssSetIWorkValueFcn        00000001800050a0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00004120       _ssGetIWorkValueFcn        0000000180005120 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00004190       _ssSetPWorkValueFcn        0000000180005190 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00004210       _ssGetPWorkValueFcn        0000000180005210 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00004280       _ssGetInputPortSignalFcn   0000000180005280 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00004610       _ssGetInputPortBufferDstPortFcn 0000000180005610 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00004690       _ssGetInputPortSignalPtrsFcn 0000000180005690 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00004a20       ssGetParameterTuningCompliance 0000000180005a20 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00004a90       _ssReadInputStringFcn      0000000180005a90 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00004b00       ssGetDTypeIdFromMxArray    0000000180005b00 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00004c20       ssWriteRTWMx2dMatParam     0000000180005c20 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00004cb0       ssWriteRTWMxVectParam      0000000180005cb0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00004d30       ssWriteRTWParameters       0000000180005d30 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000052f0       ssWriteRTWParamSettings    00000001800062f0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000059e0       ssWriteRTWStr              00000001800069e0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00005a40       ssWriteRTWWorkVect         0000000180006a40 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00005fa0       ssWarning                  0000000180006fa0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00006090       ssWriteRTWNameValuePair    0000000180007090 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00006590       _ssSetInputPortMatrixDimensions 0000000180007590 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000066e0       _ssSetOutputPortMatrixDimensions 00000001800076e0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00006830       _ssSetInputPortVectorDimension 0000000180007830 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000068e0       _ssSetOutputPortVectorDimension 00000001800078e0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00006990       ssIsRunTimeParamTunable    0000000180007990 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00006a00       ssGetSFuncBlockHandle      0000000180007a00 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00006a70       _ssGetCurrentInputPortWidth 0000000180007a70 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00006bb0       _ssGetCurrentOutputPortWidth 0000000180007bb0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00006cf0       _ssGetCallSystemNumFcnCallDestinations 0000000180007cf0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00006d60       ssGetIsZeroCrossControlDisabled 0000000180007d60 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00006dd0       ssSetIsInputPortUsedForContZcSignal 0000000180007dd0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00006e40       ssSetZcSignalIsZcElementDisc 0000000180007e40 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00006ef0       ssSetZcSignalName          0000000180007ef0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00006f60       ssSetZcSignalWidth         0000000180007f60 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00006fd0       ssSetZcSignalZcEventType   0000000180007fd0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007040       ssSetZcSignalType          0000000180008040 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000070b0       ssSetZcSignalZcTol         00000001800080b0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007120       ssSetZcSignalNeedsEventNotification 0000000180008120 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007190       ssCreateAndAddZcSignalInfo 0000000180008190 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007200       ssCloneAndAddZcSignalInfo  0000000180008200 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007270       ssGetNumZcSignals          0000000180008270 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000072e0       ssGetZcSignalVector        00000001800082e0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007350       ssGetZcSignalName          0000000180008350 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000073c0       ssGetZcSignalWidth         00000001800083c0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007430       ssGetZcSignalZcEventType   0000000180008430 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000074a0       ssGetZcSignalZcEvents      00000001800084a0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007510       ssGetZcSignalType          0000000180008510 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007580       ssGetZcSignalZcTol         0000000180008580 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007600       ssGetZcSignalNeedsEventNotification 0000000180008600 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007670       ssGetZcSignalIsZcElementDisc 0000000180008670 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007710       ssGetIsInputPortElementContinuous 0000000180008710 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000077b0       _ssGetAbsTol               00000001800087b0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007820       _ssSetStateAbsTol          0000000180008820 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007900       _ssSetInputPortReusableFcn 0000000180008900 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007a00       _ssSetOutputPortReusableFcn 0000000180008a00 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007b00       _ssSetSymbolicDimsSupport  0000000180008b00 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007b70       _ssRegisterSymbolicDimsExpr 0000000180008b70 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007bf0       _ssRegisterSymbolicDimsMATLABExpr 0000000180008bf0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007c90       _ssRegisterSymbolicDims    0000000180008c90 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007d30       _ssRegisterSymbolicDimsString 0000000180008d30 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007db0       _ssRegisterSymbolicDimsIntValue 0000000180008db0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007e20       _ssRegisterSymbolicEqualRelation 0000000180008e20 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007e90       _ssRegisterSymbolicEqualValue 0000000180008e90 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007f00       _ssAmendLeadingSymbolicDims 0000000180008f00 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00007f80       _ssAmendTrailingSymbolicDims 0000000180008f80 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008000       _ssRegisterSymbolicDimsPlus 0000000180009000 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008080       _ssRegisterSymbolicDimsMinus 0000000180009080 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008100       _ssRegisterSymbolicDimsMultiply 0000000180009100 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008180       _ssRegisterSymbolicDimsDivide 0000000180009180 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008200       _ssGetNumSymbolicDims      0000000180009200 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008270       _ssGetSymbolicDim          0000000180009270 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000082f0       _ssSetInputPortSymbolicDimsId 00000001800092f0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008360       _ssGetCompInputPortSymbolicDimsId 0000000180009360 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000083d0       _ssSetCompInputPortSymbolicDimsId 00000001800093d0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008440       _ssSetOutputPortSymbolicDimsId 0000000180009440 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000084b0       _ssGetCompOutputPortSymbolicDimsId 00000001800094b0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008520       _ssSetCompOutputPortSymbolicDimsId 0000000180009520 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008590       _ssGetDWorkSymbolicDimsId  0000000180009590 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008600       _ssSetDWorkSymbolicDimsId  0000000180009600 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008670       _ssGetCompDWorkSymbolicDimsId 0000000180009670 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000086e0       _ssSetCompDWorkSymbolicDimsId 00000001800096e0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008750       _ssCreateSLCGStringBuffer  0000000180009750 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000087c0       _ssAddToSLCGStringBuffer   00000001800097c0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:0000a260       __local_stdio_printf_options 000000018000b260 f i parrot_keyboard_control_cgxe_registry.obj
+ 0001:0000a270       _vsnprintf_l               000000018000b270 f i parrot_keyboard_control_cgxe_registry.obj
+ 0001:0000a2f0       _vsprintf_l                000000018000b2f0 f i parrot_keyboard_control_cgxe_registry.obj
+ 0001:0000a340       sprintf                    000000018000b340 f i parrot_keyboard_control_cgxe_registry.obj
+ 0001:0000a38f       mxSetCell_800              000000018000b38f f   libmx:libmx.dll
+ 0001:0000a395       mxSetFieldByNumber_800     000000018000b395 f   libmx:libmx.dll
+ 0001:0000a39b       mxCreateString_800         000000018000b39b f   libmx:libmx.dll
+ 0001:0000a3a1       mxCreateCellMatrix_800     000000018000b3a1 f   libmx:libmx.dll
+ 0001:0000a3a7       mxCreateStructMatrix_800   000000018000b3a7 f   libmx:libmx.dll
+ 0001:0000a3ad       mxCalloc_800               000000018000b3ad f   libmx:libmx.dll
+ 0001:0000a3b3       mxGetM_800                 000000018000b3b3 f   libmx:libmx.dll
+ 0001:0000a3b9       mxGetClassID_800           000000018000b3b9 f   libmx:libmx.dll
+ 0001:0000a3bf       mxGetData_800              000000018000b3bf f   libmx:libmx.dll
+ 0001:0000a3c5       mxIsNumeric_800            000000018000b3c5 f   libmx:libmx.dll
+ 0001:0000a3cb       mxIsChar_800               000000018000b3cb f   libmx:libmx.dll
+ 0001:0000a3d1       mxIsComplex_800            000000018000b3d1 f   libmx:libmx.dll
+ 0001:0000a3d7       mxGetN_800                 000000018000b3d7 f   libmx:libmx.dll
+ 0001:0000a3dd       mxGetPr_800                000000018000b3dd f   libmx:libmx.dll
+ 0001:0000a3e3       mxSetField_800             000000018000b3e3 f   libmx:libmx.dll
+ 0001:0000a3e9       mxCreateNumericMatrix_800  000000018000b3e9 f   libmx:libmx.dll
+ 0001:0000a3ef       mxCreateDoubleMatrix_800   000000018000b3ef f   libmx:libmx.dll
+ 0001:0000a3f5       mxCreateDoubleScalar_800   000000018000b3f5 f   libmx:libmx.dll
+ 0001:0000a3fb       mxGetString_800            000000018000b3fb f   libmx:libmx.dll
+ 0001:0000a401       mexWarnMsgTxt_800          000000018000b401 f   libmex:libmex.dll
+ 0001:0000a407       mexPrintf_800              000000018000b407 f   libmex:libmex.dll
+ 0001:0000a40d       mexCallMATLAB_800          000000018000b40d f   libmex:libmex.dll
+ 0001:0000a413       mexUnlock_800              000000018000b413 f   libmex:libmex.dll
+ 0001:0000a419       mexIsLocked_800            000000018000b419 f   libmex:libmex.dll
+ 0001:0000a41f       emlrtAlias                 000000018000b41f f   libemlrt:libemlrt.dll
+ 0001:0000a425       emlrtAssign                000000018000b425 f   libemlrt:libemlrt.dll
+ 0001:0000a42b       emlrtCreateStructMatrix    000000018000b42b f   libemlrt:libemlrt.dll
+ 0001:0000a431       emlrtGetFieldR2017b        000000018000b431 f   libemlrt:libemlrt.dll
+ 0001:0000a437       emlrtSetFieldR2017b        000000018000b437 f   libemlrt:libemlrt.dll
+ 0001:0000a43d       emlrtCreateCellMatrix      000000018000b43d f   libemlrt:libemlrt.dll
+ 0001:0000a443       emlrtSetCell               000000018000b443 f   libemlrt:libemlrt.dll
+ 0001:0000a449       emlrtGetCell               000000018000b449 f   libemlrt:libemlrt.dll
+ 0001:0000a44f       emlrtCreateNumericMatrix   000000018000b44f f   libemlrt:libemlrt.dll
+ 0001:0000a455       emlrtCreateLogicalScalar   000000018000b455 f   libemlrt:libemlrt.dll
+ 0001:0000a45b       emlrtCreateCharArray       000000018000b45b f   libemlrt:libemlrt.dll
+ 0001:0000a461       emlrtDestroyArray          000000018000b461 f   libemlrt:libemlrt.dll
+ 0001:0000a467       emlrtCallMATLABR2012b      000000018000b467 f   libemlrt:libemlrt.dll
+ 0001:0000a46d       emlrtInitCharArrayR2013a   000000018000b46d f   libemlrt:libemlrt.dll
+ 0001:0000a473       emlrtCheckBuiltInR2012b    000000018000b473 f   libemlrt:libemlrt.dll
+ 0001:0000a479       emlrtCheckStructR2012b     000000018000b479 f   libemlrt:libemlrt.dll
+ 0001:0000a47f       emlrtMxGetData             000000018000b47f f   libemlrt:libemlrt.dll
+ 0001:0000a485       emlrtMxGetLogicals         000000018000b485 f   libemlrt:libemlrt.dll
+ 0001:0000a48b       cgxertGetOutputPortSignal  000000018000b48b f   libmwcgxert:libmwcgxert.dll
+ 0001:0000a491       cgxertGetRuntimeInstance   000000018000b491 f   libmwcgxert:libmwcgxert.dll
+ 0001:0000a497       cgxertSetRuntimeInstance   000000018000b497 f   libmwcgxert:libmwcgxert.dll
+ 0001:0000a49d       cgxertGetEMLRTCtx          000000018000b49d f   libmwcgxert:libmwcgxert.dll
+ 0001:0000a4a3       cgxertSetGcb               000000018000b4a3 f   libmwcgxert:libmwcgxert.dll
+ 0001:0000a4a9       cgxertRestoreGcb           000000018000b4a9 f   libmwcgxert:libmwcgxert.dll
+ 0001:0000a4b0       __GSHandlerCheck           000000018000b4b0 f   MSVCRT:gshandler.obj
+ 0001:0000a4d0       __GSHandlerCheckCommon     000000018000b4d0 f   MSVCRT:gshandler.obj
+ 0001:0000a540       __security_check_cookie    000000018000b540 f   MSVCRT:amdsecgs.obj
+ 0001:0000a560       __raise_securityfailure    000000018000b560 f   MSVCRT:gs_report.obj
+ 0001:0000a594       __report_gsfailure         000000018000b594 f   MSVCRT:gs_report.obj
+ 0001:0000a668       __report_rangecheckfailure 000000018000b668 f   MSVCRT:gs_report.obj
+ 0001:0000a67c       __report_securityfailure   000000018000b67c f   MSVCRT:gs_report.obj
+ 0001:0000a718       __report_securityfailureEx 000000018000b718 f   MSVCRT:gs_report.obj
+ 0001:0000ac48       _CRT_INIT                  000000018000bc48 f   MSVCRT:dll_dllmain.obj
+ 0001:0000ac50       _DllMainCRTStartup         000000018000bc50 f   MSVCRT:dll_dllmain.obj
+ 0001:0000acfc       __security_init_cookie     000000018000bcfc f   MSVCRT:gs_support.obj
+ 0001:0000ada8       DllMain                    000000018000bda8 f   MSVCRT:dll_dllmain_stub.obj
+ 0001:0000adcc       ?__scrt_initialize_type_info@@YAXXZ 000000018000bdcc f   MSVCRT:tncleanup.obj
+ 0001:0000addc       ?__scrt_uninitialize_type_info@@YAXXZ 000000018000bddc f   MSVCRT:tncleanup.obj
+ 0001:0000ade8       __local_stdio_scanf_options 000000018000bde8 f i MSVCRT:default_local_stdio_options.obj
+ 0001:0000adf0       __scrt_initialize_default_local_stdio_options 000000018000bdf0 f   MSVCRT:default_local_stdio_options.obj
+ 0001:0000ae0c       ?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 000000018000be0c f i MSVCRT:utility.obj
+ 0001:0000ae6c       ?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ 000000018000be6c f i MSVCRT:utility.obj
+ 0001:0000aea4       NtCurrentTeb               000000018000bea4 f i MSVCRT:utility.obj
+ 0001:0000aeb0       __scrt_acquire_startup_lock 000000018000beb0 f   MSVCRT:utility.obj
+ 0001:0000aeec       __scrt_dllmain_after_initialize_c 000000018000beec f   MSVCRT:utility.obj
+ 0001:0000af20       __scrt_dllmain_before_initialize_c 000000018000bf20 f   MSVCRT:utility.obj
+ 0001:0000af38       __scrt_dllmain_crt_thread_attach 000000018000bf38 f   MSVCRT:utility.obj
+ 0001:0000af60       __scrt_dllmain_crt_thread_detach 000000018000bf60 f   MSVCRT:utility.obj
+ 0001:0000af78       __scrt_dllmain_exception_filter 000000018000bf78 f   MSVCRT:utility.obj
+ 0001:0000afd8       __scrt_dllmain_uninitialize_c 000000018000bfd8 f   MSVCRT:utility.obj
+ 0001:0000b008       __scrt_dllmain_uninitialize_critical 000000018000c008 f   MSVCRT:utility.obj
+ 0001:0000b01c       __scrt_initialize_crt      000000018000c01c f   MSVCRT:utility.obj
+ 0001:0000b068       __scrt_initialize_onexit_tables 000000018000c068 f   MSVCRT:utility.obj
+ 0001:0000b0f4       __scrt_is_nonwritable_in_current_image 000000018000c0f4 f   MSVCRT:utility.obj
+ 0001:0000b18c       __scrt_release_startup_lock 000000018000c18c f   MSVCRT:utility.obj
+ 0001:0000b1b0       __scrt_uninitialize_crt    000000018000c1b0 f   MSVCRT:utility.obj
+ 0001:0000b1dc       _onexit                    000000018000c1dc f   MSVCRT:utility.obj
+ 0001:0000b218       at_quick_exit              000000018000c218 f   MSVCRT:utility.obj
+ 0001:0000b238       atexit                     000000018000c238 f   MSVCRT:utility.obj
+ 0001:0000b250       __scrt_get_dyn_tls_init_callback 000000018000c250 f   MSVCRT:dyn_tls_init.obj
+ 0001:0000b258       __crt_debugger_hook        000000018000c258 f   MSVCRT:utility_desktop.obj
+ 0001:0000b260       __scrt_fastfail            000000018000c260 f   MSVCRT:utility_desktop.obj
+ 0001:0000b3ac       __scrt_get_show_window_mode 000000018000c3ac f   MSVCRT:utility_desktop.obj
+ 0001:0000b3e8       __scrt_initialize_mta      000000018000c3e8 f   MSVCRT:utility_desktop.obj
+ 0001:0000b3f0       __scrt_initialize_winrt    000000018000c3f0 f   MSVCRT:utility_desktop.obj
+ 0001:0000b3f4       __scrt_is_managed_app      000000018000c3f4 f   MSVCRT:utility_desktop.obj
+ 0001:0000b448       __scrt_set_unhandled_exception_filter 000000018000c448 f   MSVCRT:utility_desktop.obj
+ 0001:0000b458       __scrt_exe_initialize_mta  000000018000c458 f   MSVCRT:utility_desktop.obj
+ 0001:0000b458       __scrt_stub_for_initialize_mta 000000018000c458 f   MSVCRT:utility_desktop.obj
+ 0001:0000b45c       __scrt_unhandled_exception_filter 000000018000c45c f   MSVCRT:utility_desktop.obj
+ 0001:0000b4b8       _RTC_Initialize            000000018000c4b8 f   MSVCRT:initsect.obj
+ 0001:0000b4f4       _RTC_Terminate             000000018000c4f4 f   MSVCRT:initsect.obj
+ 0001:0000b530       _guard_check_icall_nop     000000018000c530 f i MSVCRT:guard_support.obj
+ 0001:0000b534       ReadNoFence64              000000018000c534 f i MSVCRT:guard_support.obj
+ 0001:0000b538       ReadPointerNoFence         000000018000c538 f i MSVCRT:guard_support.obj
+ 0001:0000b53c       __castguard_check_failure_debugbreak 000000018000c53c f i MSVCRT:guard_support.obj
+ 0001:0000b558       __castguard_check_failure_fastfail 000000018000c558 f i MSVCRT:guard_support.obj
+ 0001:0000b57c       __castguard_check_failure_nop 000000018000c57c f i MSVCRT:guard_support.obj
+ 0001:0000b580       __castguard_check_failure_os_handled 000000018000c580 f i MSVCRT:guard_support.obj
+ 0001:0000b5e0       __castguard_slow_path_check_debugbreak 000000018000c5e0 f i MSVCRT:guard_support.obj
+ 0001:0000b614       __castguard_slow_path_check_fastfail 000000018000c614 f i MSVCRT:guard_support.obj
+ 0001:0000b650       __castguard_slow_path_check_nop 000000018000c650 f i MSVCRT:guard_support.obj
+ 0001:0000b654       __castguard_slow_path_check_os_handled 000000018000c654 f i MSVCRT:guard_support.obj
+ 0001:0000b6c8       _guard_icall_checks_enforced 000000018000c6c8 f i MSVCRT:guard_support.obj
+ 0001:0000b6e0       _guard_rf_checks_enforced  000000018000c6e0 f i MSVCRT:guard_support.obj
+ 0001:0000b6e4       __isa_available_init       000000018000c6e4 f   MSVCRT:cpu_disp.obj
+ 0001:0000b888       _get_startup_argv_mode     000000018000c888 f   MSVCRT:argv_mode.obj
+ 0001:0000b890       __scrt_is_ucrt_dll_in_use  000000018000c890 f   MSVCRT:ucrt_detection.obj
+ 0001:0000b8a0       RtlCaptureContext          000000018000c8a0 f   kernel32:KERNEL32.dll
+ 0001:0000b8a6       RtlLookupFunctionEntry     000000018000c8a6 f   kernel32:KERNEL32.dll
+ 0001:0000b8ac       RtlVirtualUnwind           000000018000c8ac f   kernel32:KERNEL32.dll
+ 0001:0000b8b2       UnhandledExceptionFilter   000000018000c8b2 f   kernel32:KERNEL32.dll
+ 0001:0000b8b8       SetUnhandledExceptionFilter 000000018000c8b8 f   kernel32:KERNEL32.dll
+ 0001:0000b8be       GetCurrentProcess          000000018000c8be f   kernel32:KERNEL32.dll
+ 0001:0000b8c4       TerminateProcess           000000018000c8c4 f   kernel32:KERNEL32.dll
+ 0001:0000b8ca       IsProcessorFeaturePresent  000000018000c8ca f   kernel32:KERNEL32.dll
+ 0001:0000b8d0       QueryPerformanceCounter    000000018000c8d0 f   kernel32:KERNEL32.dll
+ 0001:0000b8d6       GetCurrentProcessId        000000018000c8d6 f   kernel32:KERNEL32.dll
+ 0001:0000b8dc       GetCurrentThreadId         000000018000c8dc f   kernel32:KERNEL32.dll
+ 0001:0000b8e2       GetSystemTimeAsFileTime    000000018000c8e2 f   kernel32:KERNEL32.dll
+ 0001:0000b8e8       DisableThreadLibraryCalls  000000018000c8e8 f   kernel32:KERNEL32.dll
+ 0001:0000b8ee       InitializeSListHead        000000018000c8ee f   kernel32:KERNEL32.dll
+ 0001:0000b8f4       IsDebuggerPresent          000000018000c8f4 f   kernel32:KERNEL32.dll
+ 0001:0000b8fa       GetStartupInfoW            000000018000c8fa f   kernel32:KERNEL32.dll
+ 0001:0000b900       GetModuleHandleW           000000018000c900 f   kernel32:KERNEL32.dll
+ 0001:0000b906       memcpy                     000000018000c906 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000b90c       __C_specific_handler       000000018000c90c f   vcruntime:VCRUNTIME140.dll
+ 0001:0000b912       __std_type_info_destroy_list 000000018000c912 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000b918       __current_exception        000000018000c918 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000b91e       __current_exception_context 000000018000c91e f   vcruntime:VCRUNTIME140.dll
+ 0001:0000b924       memset                     000000018000c924 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000b92a       calloc                     000000018000c92a f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0000b930       free                       000000018000c930 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0000b936       strcmp                     000000018000c936 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0000b93c       strlen                     000000018000c93c f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0000b942       __stdio_common_vsprintf    000000018000c942 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:0000b948       malloc                     000000018000c948 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0000b94e       _initterm                  000000018000c94e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000b954       _initterm_e                000000018000c954 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000b95a       _seh_filter_dll            000000018000c95a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000b960       _configure_narrow_argv     000000018000c960 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000b966       _initialize_narrow_environment 000000018000c966 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000b96c       _initialize_onexit_table   000000018000c96c f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000b972       _register_onexit_function  000000018000c972 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000b978       _execute_onexit_table      000000018000c978 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000b97e       _crt_atexit                000000018000c97e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000b984       _crt_at_quick_exit         000000018000c984 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000b98a       _cexit                     000000018000c98a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000b990       terminate                  000000018000c990 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000b998       __acrt_initialize          000000018000c998 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000b998       __vcrt_initialize          000000018000c998 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000b998       __scrt_stub_for_acrt_initialize 000000018000c998 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000b99c       __acrt_thread_attach       000000018000c99c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000b99c       __vcrt_thread_attach       000000018000c99c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000b99c       __scrt_stub_for_acrt_thread_attach 000000018000c99c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000b9a0       __scrt_stub_for_acrt_thread_detach 000000018000c9a0 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000b9a0       __vcrt_thread_detach       000000018000c9a0 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000b9a0       __acrt_thread_detach       000000018000c9a0 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000b9a4       __acrt_uninitialize        000000018000c9a4 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000b9a4       __vcrt_uninitialize        000000018000c9a4 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000b9a4       __scrt_stub_for_acrt_uninitialize 000000018000c9a4 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000b9a8       __vcrt_uninitialize_critical 000000018000c9a8 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000b9a8       __scrt_stub_for_acrt_uninitialize_critical 000000018000c9a8 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000b9a8       __acrt_uninitialize_critical 000000018000c9a8 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000b9ac       __scrt_stub_for_is_c_termination_complete 000000018000c9ac f   MSVCRT:ucrt_stubs.obj
+ 0001:0000b9ac       _is_c_termination_complete 000000018000c9ac f   MSVCRT:ucrt_stubs.obj
+ 0001:0000b9c0       _guard_dispatch_icall_nop  000000018000c9c0 f   MSVCRT:guard_dispatch.obj
+ 0001:0000b9e0       _guard_xfg_dispatch_icall_nop 000000018000c9e0 f   MSVCRT:guard_xfg_dispatch.obj
+ 0002:00000000       __imp_GetCurrentThreadId   000000018000d000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_IsDebuggerPresent    000000018000d008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_GetStartupInfoW      000000018000d010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_RtlCaptureContext    000000018000d018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_RtlLookupFunctionEntry 000000018000d020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_RtlVirtualUnwind     000000018000d028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_UnhandledExceptionFilter 000000018000d030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_SetUnhandledExceptionFilter 000000018000d038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_GetCurrentProcess    000000018000d040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_TerminateProcess     000000018000d048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_IsProcessorFeaturePresent 000000018000d050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_QueryPerformanceCounter 000000018000d058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_GetCurrentProcessId  000000018000d060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_InitializeSListHead  000000018000d068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_GetSystemTimeAsFileTime 000000018000d070     kernel32:KERNEL32.dll
+ 0002:00000078       __imp_DisableThreadLibraryCalls 000000018000d078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_GetModuleHandleW     000000018000d080     kernel32:KERNEL32.dll
+ 0002:00000088       \177KERNEL32_NULL_THUNK_DATA 000000018000d088     kernel32:KERNEL32.dll
+ 0002:00000090       __imp___current_exception  000000018000d090     vcruntime:VCRUNTIME140.dll
+ 0002:00000098       __imp___std_type_info_destroy_list 000000018000d098     vcruntime:VCRUNTIME140.dll
+ 0002:000000a0       __imp___C_specific_handler 000000018000d0a0     vcruntime:VCRUNTIME140.dll
+ 0002:000000a8       __imp_memset               000000018000d0a8     vcruntime:VCRUNTIME140.dll
+ 0002:000000b0       __imp___current_exception_context 000000018000d0b0     vcruntime:VCRUNTIME140.dll
+ 0002:000000b8       __imp_memcpy               000000018000d0b8     vcruntime:VCRUNTIME140.dll
+ 0002:000000c0       \177VCRUNTIME140_NULL_THUNK_DATA 000000018000d0c0     vcruntime:VCRUNTIME140.dll
+ 0002:000000c8       __imp_calloc               000000018000d0c8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000d0       __imp_malloc               000000018000d0d0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000d8       __imp_free                 000000018000d0d8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000e0       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 000000018000d0e0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000e8       __imp__seh_filter_dll      000000018000d0e8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f0       __imp__configure_narrow_argv 000000018000d0f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f8       __imp__initialize_narrow_environment 000000018000d0f8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000100       __imp__initialize_onexit_table 000000018000d100     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000108       __imp__initterm_e          000000018000d108     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000110       __imp__execute_onexit_table 000000018000d110     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000118       __imp__crt_atexit          000000018000d118     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000120       __imp__crt_at_quick_exit   000000018000d120     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000128       __imp__cexit               000000018000d128     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000130       __imp_terminate            000000018000d130     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000138       __imp__register_onexit_function 000000018000d138     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000140       __imp__initterm            000000018000d140     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000148       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 000000018000d148     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000150       __imp___stdio_common_vsprintf 000000018000d150     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000158       \177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 000000018000d158     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000160       __imp_strlen               000000018000d160     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000168       __imp_strcmp               000000018000d168     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000170       \177api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA 000000018000d170     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000178       __imp_emlrtMxGetLogicals   000000018000d178     libemlrt:libemlrt.dll
+ 0002:00000180       __imp_emlrtMxGetData       000000018000d180     libemlrt:libemlrt.dll
+ 0002:00000188       __imp_emlrtAlias           000000018000d188     libemlrt:libemlrt.dll
+ 0002:00000190       __imp_emlrtAssign          000000018000d190     libemlrt:libemlrt.dll
+ 0002:00000198       __imp_emlrtCheckStructR2012b 000000018000d198     libemlrt:libemlrt.dll
+ 0002:000001a0       __imp_emlrtCheckBuiltInR2012b 000000018000d1a0     libemlrt:libemlrt.dll
+ 0002:000001a8       __imp_emlrtCallMATLABR2012b 000000018000d1a8     libemlrt:libemlrt.dll
+ 0002:000001b0       __imp_emlrtDestroyArray    000000018000d1b0     libemlrt:libemlrt.dll
+ 0002:000001b8       __imp_emlrtCreateCharArray 000000018000d1b8     libemlrt:libemlrt.dll
+ 0002:000001c0       __imp_emlrtCreateLogicalScalar 000000018000d1c0     libemlrt:libemlrt.dll
+ 0002:000001c8       __imp_emlrtCreateNumericMatrix 000000018000d1c8     libemlrt:libemlrt.dll
+ 0002:000001d0       __imp_emlrtGetCell         000000018000d1d0     libemlrt:libemlrt.dll
+ 0002:000001d8       __imp_emlrtSetCell         000000018000d1d8     libemlrt:libemlrt.dll
+ 0002:000001e0       __imp_emlrtCreateCellMatrix 000000018000d1e0     libemlrt:libemlrt.dll
+ 0002:000001e8       __imp_emlrtSetFieldR2017b  000000018000d1e8     libemlrt:libemlrt.dll
+ 0002:000001f0       __imp_emlrtGetFieldR2017b  000000018000d1f0     libemlrt:libemlrt.dll
+ 0002:000001f8       __imp_emlrtCreateStructMatrix 000000018000d1f8     libemlrt:libemlrt.dll
+ 0002:00000200       __imp_emlrtInitCharArrayR2013a 000000018000d200     libemlrt:libemlrt.dll
+ 0002:00000208       \177libemlrt_NULL_THUNK_DATA 000000018000d208     libemlrt:libemlrt.dll
+ 0002:00000210       __imp_mexWarnMsgTxt_800    000000018000d210     libmex:libmex.dll
+ 0002:00000218       __imp_mexIsLocked_800      000000018000d218     libmex:libmex.dll
+ 0002:00000220       __imp_mexUnlock_800        000000018000d220     libmex:libmex.dll
+ 0002:00000228       __imp_mexCallMATLAB_800    000000018000d228     libmex:libmex.dll
+ 0002:00000230       __imp_mexPrintf_800        000000018000d230     libmex:libmex.dll
+ 0002:00000238       \177libmex_NULL_THUNK_DATA 000000018000d238     libmex:libmex.dll
+ 0002:00000240       __imp_cgxertSetRuntimeInstance 000000018000d240     libmwcgxert:libmwcgxert.dll
+ 0002:00000248       __imp_cgxertGetRuntimeInstance 000000018000d248     libmwcgxert:libmwcgxert.dll
+ 0002:00000250       __imp_cgxertGetOutputPortSignal 000000018000d250     libmwcgxert:libmwcgxert.dll
+ 0002:00000258       __imp_cgxertSetGcb         000000018000d258     libmwcgxert:libmwcgxert.dll
+ 0002:00000260       __imp_cgxertRestoreGcb     000000018000d260     libmwcgxert:libmwcgxert.dll
+ 0002:00000268       __imp_cgxertGetEMLRTCtx    000000018000d268     libmwcgxert:libmwcgxert.dll
+ 0002:00000270       \177libmwcgxert_NULL_THUNK_DATA 000000018000d270     libmwcgxert:libmwcgxert.dll
+ 0002:00000278       __imp_mxSetFieldByNumber_800 000000018000d278     libmx:libmx.dll
+ 0002:00000280       __imp_mxGetString_800      000000018000d280     libmx:libmx.dll
+ 0002:00000288       __imp_mxCreateDoubleScalar_800 000000018000d288     libmx:libmx.dll
+ 0002:00000290       __imp_mxCreateDoubleMatrix_800 000000018000d290     libmx:libmx.dll
+ 0002:00000298       __imp_mxCreateNumericMatrix_800 000000018000d298     libmx:libmx.dll
+ 0002:000002a0       __imp_mxSetField_800       000000018000d2a0     libmx:libmx.dll
+ 0002:000002a8       __imp_mxGetPr_800          000000018000d2a8     libmx:libmx.dll
+ 0002:000002b0       __imp_mxGetN_800           000000018000d2b0     libmx:libmx.dll
+ 0002:000002b8       __imp_mxIsComplex_800      000000018000d2b8     libmx:libmx.dll
+ 0002:000002c0       __imp_mxIsChar_800         000000018000d2c0     libmx:libmx.dll
+ 0002:000002c8       __imp_mxIsNumeric_800      000000018000d2c8     libmx:libmx.dll
+ 0002:000002d0       __imp_mxGetData_800        000000018000d2d0     libmx:libmx.dll
+ 0002:000002d8       __imp_mxGetClassID_800     000000018000d2d8     libmx:libmx.dll
+ 0002:000002e0       __imp_mxGetM_800           000000018000d2e0     libmx:libmx.dll
+ 0002:000002e8       __imp_mxCalloc_800         000000018000d2e8     libmx:libmx.dll
+ 0002:000002f0       __imp_mxCreateStructMatrix_800 000000018000d2f0     libmx:libmx.dll
+ 0002:000002f8       __imp_mxCreateCellMatrix_800 000000018000d2f8     libmx:libmx.dll
+ 0002:00000300       __imp_mxCreateString_800   000000018000d300     libmx:libmx.dll
+ 0002:00000308       __imp_mxSetCell_800        000000018000d308     libmx:libmx.dll
+ 0002:00000310       \177libmx_NULL_THUNK_DATA  000000018000d310     libmx:libmx.dll
+ 0002:00000318       __guard_check_icall_fptr   000000018000d318     MSVCRT:guard_support.obj
+ 0002:00000320       __guard_xfg_check_icall_fptr 000000018000d320     MSVCRT:guard_support.obj
+ 0002:00000328       __guard_dispatch_icall_fptr 000000018000d328     MSVCRT:guard_support.obj
+ 0002:00000330       __guard_xfg_dispatch_icall_fptr 000000018000d330     MSVCRT:guard_support.obj
+ 0002:00000338       __guard_xfg_table_dispatch_icall_fptr 000000018000d338     MSVCRT:guard_support.obj
+ 0002:00000340       __xc_a                     000000018000d340     MSVCRT:initializers.obj
+ 0002:00000348       __xc_z                     000000018000d348     MSVCRT:initializers.obj
+ 0002:00000350       __xi_a                     000000018000d350     MSVCRT:initializers.obj
+ 0002:00000358       __xi_z                     000000018000d358     MSVCRT:initializers.obj
+ 0002:00000360       __xp_a                     000000018000d360     MSVCRT:initializers.obj
+ 0002:00000368       __xp_z                     000000018000d368     MSVCRT:initializers.obj
+ 0002:00000370       __xt_a                     000000018000d370     MSVCRT:initializers.obj
+ 0002:00000378       __xt_z                     000000018000d378     MSVCRT:initializers.obj
+ 0002:000003f8       DYNAMIC_DIMENSION_DEF      000000018000d3f8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000410       __real@0000000000000000    000000018000d410     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000418       __real@4010000000000000    000000018000d418     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000420       __real@41602cbca0000000    000000018000d420     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000428       __real@41926b9bb4000000    000000018000d428     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000430       __real@4198b1c540000000    000000018000d430     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000438       __real@41a76e0a9a000000    000000018000d438     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000440       __real@41a9716202000000    000000018000d440     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000448       __real@41c2aa6c10800000    000000018000d448     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000450       __real@41c9045434800000    000000018000d450     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000458       __real@41d0840134c00000    000000018000d458     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000460       __real@41d652ab5bc00000    000000018000d460     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000468       __real@41dc67f553c00000    000000018000d468     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000470       __real@41e13401bfc00000    000000018000d470     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000478       __real@41e2069ed9a00000    000000018000d478     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000480       __real@41e3fcdd34e00000    000000018000d480     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000488       __real@41e5b0b712600000    000000018000d488     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000490       __real@41e6ff9698800000    000000018000d490     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000498       __real@41ebbb3bc8200000    000000018000d498     parrot_keyboard_control_cgxe_registry.obj
+ 0002:000004a0       __real@41ed40c3a7800000    000000018000d4a0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:000004a8       __real@bff0000000000000    000000018000d4a8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:000004c0       _pRawDllMain               000000018000d4c0     MSVCRT:dll_dllmain.obj
+ 0002:000004c0       _pDefaultRawDllMain        000000018000d4c0     MSVCRT:dll_dllmain.obj
+ 0002:000004d0       __xmm@ffffffffffffffffffffffffffffffff 000000018000d4d0     MSVCRT:utility.obj
+ 0002:00000500       _load_config_used          000000018000d500     MSVCRT:loadcfg.obj
+ 0002:00000680       __CastGuardVftablesStart   000000018000d680     MSVCRT:guard_support.obj
+ 0002:00000688       __CastGuardVftablesEnd     000000018000d688     MSVCRT:guard_support.obj
+ 0002:00000690       __volatile_metadata        000000018000d690     <linker-defined>
+ 0002:000009c0       __rtc_iaa                  000000018000d9c0     MSVCRT:initsect.obj
+ 0002:000009c8       __rtc_izz                  000000018000d9c8     MSVCRT:initsect.obj
+ 0002:000009d0       __rtc_taa                  000000018000d9d0     MSVCRT:initsect.obj
+ 0002:000009d8       __rtc_tzz                  000000018000d9d8     MSVCRT:initsect.obj
+ 0002:00001228       __IMPORT_DESCRIPTOR_libmx  000000018000e228     libmx:libmx.dll
+ 0002:0000123c       __IMPORT_DESCRIPTOR_libmex 000000018000e23c     libmex:libmex.dll
+ 0002:00001250       __IMPORT_DESCRIPTOR_libemlrt 000000018000e250     libemlrt:libemlrt.dll
+ 0002:00001264       __IMPORT_DESCRIPTOR_libmwcgxert 000000018000e264     libmwcgxert:libmwcgxert.dll
+ 0002:00001278       __IMPORT_DESCRIPTOR_KERNEL32 000000018000e278     kernel32:KERNEL32.dll
+ 0002:0000128c       __IMPORT_DESCRIPTOR_VCRUNTIME140 000000018000e28c     vcruntime:VCRUNTIME140.dll
+ 0002:000012a0       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 000000018000e2a0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000012b4       __IMPORT_DESCRIPTOR_api-ms-win-crt-string-l1-1-0 000000018000e2b4     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:000012c8       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 000000018000e2c8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000012dc       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 000000018000e2dc     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000012f0       __NULL_IMPORT_DESCRIPTOR   000000018000e2f0     libmx:libmx.dll
+ 0003:00000680       DYNAMIC_DIMENSION          000000018000f680     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00002810       __security_cookie_complement 0000000180011810     MSVCRT:gs_cookie.obj
+ 0003:00002818       __security_cookie          0000000180011818     MSVCRT:gs_cookie.obj
+ 0003:00002820       _fltused                   0000000180011820     MSVCRT:fltused.obj
+ 0003:00002824       __scrt_native_dllmain_reason 0000000180011824     MSVCRT:utility.obj
+ 0003:00002828       __isa_available            0000000180011828     MSVCRT:cpu_disp.obj
+ 0003:0000282c       __isa_enabled              000000018001182c     MSVCRT:cpu_disp.obj
+ 0003:00002830       __memcpy_nt_iters          0000000180011830     MSVCRT:cpu_disp.obj
+ 0003:00002838       __memset_nt_iters          0000000180011838     MSVCRT:cpu_disp.obj
+ 0003:00002840       __scrt_ucrt_dll_is_in_use  0000000180011840     MSVCRT:ucrt_stubs.obj
+ 0003:00002de0       ?__type_info_root_node@@3U__type_info_node@@A 0000000180011de0     MSVCRT:tncleanup.obj
+ 0003:00002df0       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 0000000180011df0     MSVCRT:default_local_stdio_options.obj
+ 0003:00002df8       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 0000000180011df8     MSVCRT:default_local_stdio_options.obj
+ 0003:00002e00       __scrt_current_native_startup_state 0000000180011e00     MSVCRT:utility.obj
+ 0003:00002e08       __scrt_native_startup_lock 0000000180011e08     MSVCRT:utility.obj
+ 0003:00002e48       __scrt_debugger_hook_flag  0000000180011e48     MSVCRT:utility_desktop.obj
+ 0003:00002e50       __castguard_check_failure_os_handled_fptr 0000000180011e50     MSVCRT:guard_support.obj
+ 0003:00002e58       __favor                    0000000180011e58     MSVCRT:cpu_disp.obj
+ 0003:00002e60       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@9 0000000180011e60     <common>
+ 0003:00002e68       __dyn_tls_init_callback    0000000180011e68     <common>
+
+ entry point at        0001:0000ac50
+
+ Static symbols
+
+ 0000:fffed000       _volmd                     0000000180000000     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0000:00000000       .debug$S                   0000000180000000     parrot_keyboard_control_cgxe.exp
+ 0000:fffed000       _volmd                     0000000180000000     parrot_keyboard_control_cgxe_registry.obj
+ 0000:fffed000       _volmd                     0000000180000000     MSVCRT:cpu_disp.obj
+ 0002:ffff3000       __guard_ehcont_?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180000000     MSVCRT:dll_dllmain.obj
+ 0002:ffff3000       __guard_fids_?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180000000     MSVCRT:dll_dllmain.obj
+ 0000:fffed000       _volmd                     0000000180000000     MSVCRT:gs_report.obj
+ 0000:fffed000       _volmd                     0000000180000000     MSVCRT:gs_report.obj
+ 0000:fffed000       _volmd                     0000000180000000     MSVCRT:gs_report.obj
+ 0002:ffff3000       __guard_fids__             0000000180000000     MSVCRT:guard_support.obj
+ 0002:ffff3000       __guard_fids__             0000000180000000     MSVCRT:guard_support.obj
+ 0002:ffff3000       __guard_fids__guard_icall_checks_enforced 0000000180000000     MSVCRT:guard_support.obj
+ 0000:fffed000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0000:fffed000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0000:fffed000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0000:fffed000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0000:fffed000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0002:ffff3000       __guard_ehcont___scrt_is_nonwritable_in_current_image 0000000180000000     MSVCRT:utility.obj
+ 0000:fffed000       _volmd                     0000000180000000     MSVCRT:utility.obj
+ 0000:fffed000       _volmd                     0000000180000000     MSVCRT:utility.obj
+ 0000:fffed000       _volmd                     0000000180000000     MSVCRT:utility.obj
+ 0002:ffff3000       __guard_fids___scrt_set_unhandled_exception_filter 0000000180000000     MSVCRT:utility_desktop.obj
+ 0000:fffed000       _volmd                     0000000180000000     MSVCRT:utility_desktop.obj
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwcgxert:libmwcgxert.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwcgxert:libmwcgxert.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwcgxert:libmwcgxert.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwcgxert:libmwcgxert.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwcgxert:libmwcgxert.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwcgxert:libmwcgxert.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:fffed010       _volmd                     0000000180000010     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0000:fffed010       _volmd                     0000000180000010     parrot_keyboard_control_cgxe_registry.obj
+ 0000:fffed020       _volmd                     0000000180000020     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0000:fffed020       _volmd                     0000000180000020     parrot_keyboard_control_cgxe_registry.obj
+ 0000:fffed030       _volmd                     0000000180000030     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0000:fffed030       _volmd                     0000000180000030     parrot_keyboard_control_cgxe_registry.obj
+ 0000:fffed040       _volmd                     0000000180000040     parrot_keyboard_control_cgxe_registry.obj
+ 0000:fffed050       _volmd                     0000000180000050     parrot_keyboard_control_cgxe_registry.obj
+ 0000:fffed060       _volmd                     0000000180000060     parrot_keyboard_control_cgxe_registry.obj
+ 0000:fffed070       _volmd                     0000000180000070     parrot_keyboard_control_cgxe_registry.obj
+ 0000:fffed080       _volmd                     0000000180000080     parrot_keyboard_control_cgxe_registry.obj
+ 0000:fffed090       _volmd                     0000000180000090     parrot_keyboard_control_cgxe_registry.obj
+ 0000:fffed0a0       _volmd                     00000001800000a0     parrot_keyboard_control_cgxe_registry.obj
+ 0000:fffed0b0       _volmd                     00000001800000b0     parrot_keyboard_control_cgxe_registry.obj
+ 0000:fffed0c0       _volmd                     00000001800000c0     parrot_keyboard_control_cgxe_registry.obj
+ 0000:fffed0d0       _volmd                     00000001800000d0     parrot_keyboard_control_cgxe_registry.obj
+ 0000:fffed0e0       _volmd                     00000001800000e0     parrot_keyboard_control_cgxe_registry.obj
+ 0001:00000160       cgxe_mdl_start             0000000180001160 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:000001f0       cgxe_mdl_initialize        00000001800011f0 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00000270       cgxe_mdl_outputs           0000000180001270 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00000300       cgxe_mdl_update            0000000180001300 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00000310       cgxe_mdl_enable            0000000180001310 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00000320       cgxe_mdl_disable           0000000180001320 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00000330       cgxe_mdl_terminate         0000000180001330 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00000380       mw__internal__call__setup  0000000180001380 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00000480       SystemCore_setup           0000000180001480 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00000760       SystemCore_checkTunablePropChange 0000000180001760 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00000960       mw__internal__call__reset  0000000180001960 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00000ea0       mw__internal__call__step   0000000180001ea0 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:000012e0       emlrt_marshallOut          00000001800022e0 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001480       cgxe_mdl_get_sim_state     0000000180002480 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:000014c0       emlrt_marshallIn           00000001800024c0 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001590       b_emlrt_marshallIn         0000000180002590 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001600       c_emlrt_marshallIn         0000000180002600 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001730       d_emlrt_marshallIn         0000000180002730 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001780       e_emlrt_marshallIn         0000000180002780 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:000017d0       f_emlrt_marshallIn         00000001800027d0 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001840       cgxe_mdl_set_sim_state     0000000180002840 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:000018b0       message                    00000001800028b0 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001950       getString                  0000000180002950 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:000019c0       error                      00000001800029c0 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001a50       b_message                  0000000180002a50 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001ac0       g_emlrt_marshallIn         0000000180002ac0 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001b30       h_emlrt_marshallIn         0000000180002b30 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001bb0       init_simulink_io_address   0000000180002bb0 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001c10       mdlOutputs_3YttJ5tzdpTPtVQkledOMC 0000000180002c10 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001c50       mdlInitialize_3YttJ5tzdpTPtVQkledOMC 0000000180002c50 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001c80       mdlUpdate_3YttJ5tzdpTPtVQkledOMC 0000000180002c80 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001cc0       getSimState_3YttJ5tzdpTPtVQkledOMC 0000000180002cc0 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001d00       setSimState_3YttJ5tzdpTPtVQkledOMC 0000000180002d00 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001d40       mdlTerminate_3YttJ5tzdpTPtVQkledOMC 0000000180002d40 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001d80       mdlEnable_3YttJ5tzdpTPtVQkledOMC 0000000180002d80 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001db0       mdlDisable_3YttJ5tzdpTPtVQkledOMC 0000000180002db0 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001de0       mdlStart_3YttJ5tzdpTPtVQkledOMC 0000000180002de0 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00001ee0       mdlProcessParameters_3YttJ5tzdpTPtVQkledOMC 0000000180002ee0 f   m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0001:00003d60       $LN139                     0000000180004d60     parrot_keyboard_control_cgxe_registry.obj
+ 0001:00004bc4       $LN22                      0000000180005bc4     parrot_keyboard_control_cgxe_registry.obj
+ 0001:000052c4       $LN26                      00000001800062c4     parrot_keyboard_control_cgxe_registry.obj
+ 0001:000059a4       $LN24                      00000001800069a4     parrot_keyboard_control_cgxe_registry.obj
+ 0001:0000655c       $LN30                      000000018000755c     parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008830       mdlStart                   0000000180009830 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008870       mdlInitializeConditions    0000000180009870 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008890       mdlUpdate                  0000000180009890 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000088c0       mdlOutputs                 00000001800098c0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000088f0       mdlTerminate               00000001800098f0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008910       mdlInitializeSizes         0000000180009910 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008920       mdlInitializeSampleTimes   0000000180009920 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008930       cgxe_get_supported_modules 0000000180009930 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008a00       cgxe_process_get_checksums 0000000180009a00 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008d90       cgxe_mex_unlock_call       0000000180009d90 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008dd0       cgxe_unpack_simstruct      0000000180009dd0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008e70       cgxe_get_sim_state         0000000180009e70 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008ee0       cgxe_set_sim_state         0000000180009ee0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00008f60       cgxe_get_BuildInfoUpdate   0000000180009f60 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00009030       cgxe_get_fallback_info     000000018000a030 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00009100       ProcessMexSfunctionCmdLineCall 000000018000a100 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00009330       mdlZeroCrossings           000000018000a330 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00009380       mdlGetTimeOfNextVarHit     000000018000a380 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000093d0       _RegNumInputPortsCB        000000018000a3d0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00009450       _RegNumOutputPortsCB       000000018000a450 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:000094d0       _CreateSimStruct           000000018000a4d0 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:00009700       _ProcessMexSfunctionCmdLineCall 000000018000a700 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:0000a090       ReportIndexOutOfBoundsError 000000018000b090 f   parrot_keyboard_control_cgxe_registry.obj
+ 0001:0000a530       $$000000                   000000018000b530     MSVCRT:amdsecgs.obj
+ 0001:0000a828       capture_current_context    000000018000b828 f   MSVCRT:gs_report.obj
+ 0001:0000a898       capture_previous_context   000000018000b898 f   MSVCRT:gs_report.obj
+ 0001:0000a90c       ?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000b90c f   MSVCRT:dll_dllmain.obj
+ 0001:0000a95c       ?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 000000018000b95c f   MSVCRT:dll_dllmain.obj
+ 0001:0000aa74       ?dllmain_crt_process_detach@@YAH_N@Z 000000018000ba74 f   MSVCRT:dll_dllmain.obj
+ 0001:0000aaf8       ?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000baf8 f   MSVCRT:dll_dllmain.obj
+ 0001:0000ac2c       ?dllmain_raw@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000bc2c f   MSVCRT:dll_dllmain.obj
+ 0001:0000ac90       __get_entropy              000000018000bc90 f   MSVCRT:gs_support.obj
+ 0001:0000ae20       ?find_pe_section@@YAPEAU_IMAGE_SECTION_HEADER@@QEAE_K@Z 000000018000be20 f   MSVCRT:utility.obj
+ 0001:0000ae74       ?is_potentially_valid_image_base@@YA_NQEAX@Z 000000018000be74 f   MSVCRT:utility.obj
+ 0001:0000b5c0       __castguard_compat_check   000000018000c5c0 f   MSVCRT:guard_support.obj
+ 0001:0000b6ac       __castguard_slow_path_compat_check 000000018000c6ac f   MSVCRT:guard_support.obj
+ 0001:0000b9b0       $$000000                   000000018000c9b0     MSVCRT:guard_dispatch.obj
+ 0001:0000b9d0       $$000000                   000000018000c9d0     MSVCRT:guard_xfg_dispatch.obj
+ 0001:0000b9e6       ?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 000000018000c9e6 f   MSVCRT:dll_dllmain.obj
+ 0001:0000b9fd       ?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018000c9fd f   MSVCRT:dll_dllmain.obj
+ 0001:0000ba16       ?fin$1@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018000ca16 f   MSVCRT:dll_dllmain.obj
+ 0001:0000ba2a       ?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 000000018000ca2a f   MSVCRT:dll_dllmain.obj
+ 0001:0000ba60       __scrt_is_nonwritable_in_current_image$filt$0 000000018000ca60 f   MSVCRT:utility.obj
+ 0002:00000380       ?iv@?1??SystemCore_setup@@9@9 000000018000d380     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000388       ?iv1@?1??SystemCore_setup@@9@9 000000018000d388     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000390       ?iv2@?1??SystemCore_setup@@9@9 000000018000d390     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000398       ?iv@?1??SystemCore_checkTunablePropChange@@9@9 000000018000d398     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:000003a0       ?iv1@?1??SystemCore_checkTunablePropChange@@9@9 000000018000d3a0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:000003a8       ?iv@?1??mw__internal__call__reset@@9@9 000000018000d3a8     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:000003b0       ?iv1@?1??mw__internal__call__reset@@9@9 000000018000d3b0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:000003b8       ?iv2@?1??mw__internal__call__reset@@9@9 000000018000d3b8     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:000003c0       ?iv3@?1??mw__internal__call__reset@@9@9 000000018000d3c0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:000003c8       ?iv4@?1??mw__internal__call__reset@@9@9 000000018000d3c8     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:000003d0       ?iv@?1??mw__internal__call__step@@9@9 000000018000d3d0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:000003d8       ?iv1@?1??mw__internal__call__step@@9@9 000000018000d3d8     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:000003e0       ?iv2@?1??mw__internal__call__step@@9@9 000000018000d3e0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:000003e8       ?dims@?1??c_emlrt_marshallIn@@9@9 000000018000d3e8     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:000003ec       ?dims@?1??g_emlrt_marshallIn@@9@9 000000018000d3ec     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:000003f0       ?dims@?1??h_emlrt_marshallIn@@9@9 000000018000d3f0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:000004b0       GS_ExceptionPointers       000000018000d4b0     MSVCRT:gs_report.obj
+ 0002:000009e0       $unwind$cgxe_parrot_keyboard_control_method_dispatcher 000000018000d9e0     parrot_keyboard_control_cgxe.obj
+ 0002:000009e8       $unwind$method_dispatcher_3YttJ5tzdpTPtVQkledOMC 000000018000d9e8     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:000009f0       $unwind$cgxe_mdl_start     000000018000d9f0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:000009f8       $unwind$cgxe_mdl_initialize 000000018000d9f8     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000a00       $unwind$cgxe_mdl_outputs   000000018000da00     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000a08       $unwind$cgxe_mdl_terminate 000000018000da08     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000a10       $unwind$mw__internal__call__setup 000000018000da10     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000a18       $unwind$SystemCore_setup   000000018000da18     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000a28       $unwind$SystemCore_checkTunablePropChange 000000018000da28     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000a38       $unwind$mw__internal__call__reset 000000018000da38     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000a48       $unwind$mw__internal__call__step 000000018000da48     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000a58       $unwind$emlrt_marshallOut  000000018000da58     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000a60       $unwind$cgxe_mdl_get_sim_state 000000018000da60     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000a68       $unwind$emlrt_marshallIn   000000018000da68     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000a70       $unwind$b_emlrt_marshallIn 000000018000da70     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000a78       $unwind$c_emlrt_marshallIn 000000018000da78     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000a80       $unwind$d_emlrt_marshallIn 000000018000da80     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000a88       $unwind$e_emlrt_marshallIn 000000018000da88     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000a90       $unwind$f_emlrt_marshallIn 000000018000da90     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000a98       $unwind$cgxe_mdl_set_sim_state 000000018000da98     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000aa0       $unwind$message            000000018000daa0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000aa8       $unwind$getString          000000018000daa8     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000ab0       $unwind$error              000000018000dab0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000ab8       $unwind$b_message          000000018000dab8     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000ac0       $unwind$g_emlrt_marshallIn 000000018000dac0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000ac8       $unwind$h_emlrt_marshallIn 000000018000dac8     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000ad0       $unwind$init_simulink_io_address 000000018000dad0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000ad8       $unwind$mdlOutputs_3YttJ5tzdpTPtVQkledOMC 000000018000dad8     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000ae0       $unwind$mdlInitialize_3YttJ5tzdpTPtVQkledOMC 000000018000dae0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000ae8       $unwind$mdlUpdate_3YttJ5tzdpTPtVQkledOMC 000000018000dae8     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000af0       $unwind$getSimState_3YttJ5tzdpTPtVQkledOMC 000000018000daf0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000af8       $unwind$setSimState_3YttJ5tzdpTPtVQkledOMC 000000018000daf8     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000b00       $unwind$mdlTerminate_3YttJ5tzdpTPtVQkledOMC 000000018000db00     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000b08       $unwind$mdlEnable_3YttJ5tzdpTPtVQkledOMC 000000018000db08     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000b10       $unwind$mdlDisable_3YttJ5tzdpTPtVQkledOMC 000000018000db10     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000b18       $unwind$mdlStart_3YttJ5tzdpTPtVQkledOMC 000000018000db18     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000b20       $unwind$cgxe_3YttJ5tzdpTPtVQkledOMC_BuildInfoUpdate 000000018000db20     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000b28       $unwind$cgxe_3YttJ5tzdpTPtVQkledOMC_fallback_info 000000018000db28     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0002:00000b30       $unwind$_vsnprintf_l       000000018000db30     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000b38       $unwind$_vsprintf_l        000000018000db38     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000b40       $unwind$sprintf            000000018000db40     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000b48       $unwind$mexFunction        000000018000db48     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000b58       $unwind$_ssSetInputPortDirectFeedThroughFcn 000000018000db58     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000b68       $unwind$_ssSetRWorkValueFcn 000000018000db68     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000b70       $unwind$_ssGetRWorkValueFcn 000000018000db70     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000b78       $unwind$_ssSetIWorkValueFcn 000000018000db78     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000b80       $unwind$_ssGetIWorkValueFcn 000000018000db80     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000b88       $unwind$_ssSetPWorkValueFcn 000000018000db88     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000b90       $unwind$_ssGetPWorkValueFcn 000000018000db90     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000b98       $unwind$_ssGetInputPortSignalFcn 000000018000db98     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000ba8       $unwind$_ssGetInputPortBufferDstPortFcn 000000018000dba8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000bb0       $unwind$_ssGetInputPortSignalPtrsFcn 000000018000dbb0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000bc0       $unwind$ssGetParameterTuningCompliance 000000018000dbc0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000bc8       $unwind$_ssReadInputStringFcn 000000018000dbc8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000bd0       $unwind$ssGetDTypeIdFromMxArray 000000018000dbd0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000bd8       $unwind$ssWriteRTWMx2dMatParam 000000018000dbd8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000be0       $unwind$ssWriteRTWMxVectParam 000000018000dbe0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000be8       $unwind$ssWriteRTWParameters 000000018000dbe8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000bf0       $unwind$ssWriteRTWParamSettings 000000018000dbf0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000bf8       $unwind$ssWriteRTWStr      000000018000dbf8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000c00       $unwind$ssWriteRTWWorkVect 000000018000dc00     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000c14       $unwind$ssWarning          000000018000dc14     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000c28       $unwind$ssWriteRTWNameValuePair 000000018000dc28     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000c30       $unwind$_ssSetInputPortMatrixDimensions 000000018000dc30     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000c3c       $unwind$_ssSetOutputPortMatrixDimensions 000000018000dc3c     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000c48       $unwind$_ssSetInputPortVectorDimension 000000018000dc48     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000c54       $unwind$_ssSetOutputPortVectorDimension 000000018000dc54     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000c60       $unwind$ssIsRunTimeParamTunable 000000018000dc60     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000c68       $unwind$ssGetSFuncBlockHandle 000000018000dc68     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000c70       $unwind$_ssGetCurrentInputPortWidth 000000018000dc70     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000c78       $unwind$_ssGetCurrentOutputPortWidth 000000018000dc78     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000c80       $unwind$_ssGetCallSystemNumFcnCallDestinations 000000018000dc80     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000c88       $unwind$ssGetIsZeroCrossControlDisabled 000000018000dc88     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000c90       $unwind$ssSetIsInputPortUsedForContZcSignal 000000018000dc90     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000c98       $unwind$ssSetZcSignalIsZcElementDisc 000000018000dc98     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000ca8       $unwind$ssSetZcSignalName  000000018000dca8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000cb0       $unwind$ssSetZcSignalWidth 000000018000dcb0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000cb8       $unwind$ssSetZcSignalZcEventType 000000018000dcb8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000cc0       $unwind$ssSetZcSignalType  000000018000dcc0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000cc8       $unwind$ssSetZcSignalZcTol 000000018000dcc8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000cd0       $unwind$ssSetZcSignalNeedsEventNotification 000000018000dcd0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000cd8       $unwind$ssCreateAndAddZcSignalInfo 000000018000dcd8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000ce0       $unwind$ssCloneAndAddZcSignalInfo 000000018000dce0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000ce8       $unwind$ssGetNumZcSignals  000000018000dce8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000cf0       $unwind$ssGetZcSignalVector 000000018000dcf0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000cf8       $unwind$ssGetZcSignalName  000000018000dcf8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000d00       $unwind$ssGetZcSignalWidth 000000018000dd00     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000d08       $unwind$ssGetZcSignalZcEventType 000000018000dd08     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000d10       $unwind$ssGetZcSignalZcEvents 000000018000dd10     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000d18       $unwind$ssGetZcSignalType  000000018000dd18     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000d20       $unwind$ssGetZcSignalZcTol 000000018000dd20     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000d28       $unwind$ssGetZcSignalNeedsEventNotification 000000018000dd28     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000d30       $unwind$ssGetZcSignalIsZcElementDisc 000000018000dd30     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000d40       $unwind$ssGetIsInputPortElementContinuous 000000018000dd40     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000d50       $unwind$_ssGetAbsTol       000000018000dd50     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000d58       $unwind$_ssSetInputPortReusableFcn 000000018000dd58     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000d60       $unwind$_ssSetOutputPortReusableFcn 000000018000dd60     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000d68       $unwind$_ssSetSymbolicDimsSupport 000000018000dd68     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000d70       $unwind$_ssRegisterSymbolicDimsExpr 000000018000dd70     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000d78       $unwind$_ssRegisterSymbolicDimsMATLABExpr 000000018000dd78     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000d80       $unwind$_ssRegisterSymbolicDims 000000018000dd80     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000d88       $unwind$_ssRegisterSymbolicDimsString 000000018000dd88     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000d90       $unwind$_ssRegisterSymbolicDimsIntValue 000000018000dd90     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000d98       $unwind$_ssRegisterSymbolicEqualRelation 000000018000dd98     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000da0       $unwind$_ssRegisterSymbolicEqualValue 000000018000dda0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000da8       $unwind$_ssAmendLeadingSymbolicDims 000000018000dda8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000db0       $unwind$_ssAmendTrailingSymbolicDims 000000018000ddb0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000db8       $unwind$_ssRegisterSymbolicDimsPlus 000000018000ddb8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000dc0       $unwind$_ssRegisterSymbolicDimsMinus 000000018000ddc0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000dc8       $unwind$_ssRegisterSymbolicDimsMultiply 000000018000ddc8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000dd0       $unwind$_ssRegisterSymbolicDimsDivide 000000018000ddd0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000dd8       $unwind$_ssGetNumSymbolicDims 000000018000ddd8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000de0       $unwind$_ssGetSymbolicDim  000000018000dde0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000de8       $unwind$_ssSetInputPortSymbolicDimsId 000000018000dde8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000df0       $unwind$_ssGetCompInputPortSymbolicDimsId 000000018000ddf0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000df8       $unwind$_ssSetCompInputPortSymbolicDimsId 000000018000ddf8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e00       $unwind$_ssSetOutputPortSymbolicDimsId 000000018000de00     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e08       $unwind$_ssGetCompOutputPortSymbolicDimsId 000000018000de08     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e10       $unwind$_ssSetCompOutputPortSymbolicDimsId 000000018000de10     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e18       $unwind$_ssGetDWorkSymbolicDimsId 000000018000de18     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e20       $unwind$_ssSetDWorkSymbolicDimsId 000000018000de20     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e28       $unwind$_ssGetCompDWorkSymbolicDimsId 000000018000de28     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e30       $unwind$_ssSetCompDWorkSymbolicDimsId 000000018000de30     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e38       $unwind$_ssCreateSLCGStringBuffer 000000018000de38     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e40       $unwind$_ssAddToSLCGStringBuffer 000000018000de40     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e48       $unwind$mdlStart           000000018000de48     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e50       $unwind$mdlInitializeConditions 000000018000de50     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e58       $unwind$mdlUpdate          000000018000de58     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e60       $unwind$mdlOutputs         000000018000de60     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e68       $unwind$mdlTerminate       000000018000de68     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e70       $unwind$cgxe_get_supported_modules 000000018000de70     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e78       $unwind$cgxe_process_get_checksums 000000018000de78     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e88       $unwind$cgxe_mex_unlock_call 000000018000de88     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e90       $unwind$cgxe_unpack_simstruct 000000018000de90     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000e98       $unwind$cgxe_get_sim_state 000000018000de98     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000ea0       $unwind$cgxe_set_sim_state 000000018000dea0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000ea8       $unwind$cgxe_get_BuildInfoUpdate 000000018000dea8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000eb8       $unwind$cgxe_get_fallback_info 000000018000deb8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000ec8       $unwind$ProcessMexSfunctionCmdLineCall 000000018000dec8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000ed8       $unwind$_RegNumInputPortsCB 000000018000ded8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000ee0       $unwind$_RegNumOutputPortsCB 000000018000dee0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000ee8       $unwind$_CreateSimStruct   000000018000dee8     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000ef0       $unwind$_ProcessMexSfunctionCmdLineCall 000000018000def0     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000f00       $unwind$ReportIndexOutOfBoundsError 000000018000df00     parrot_keyboard_control_cgxe_registry.obj
+ 0002:00000f10       $unwind$__GSHandlerCheckCommon 000000018000df10     MSVCRT:gshandler.obj
+ 0002:00000f18       $unwind$__GSHandlerCheck   000000018000df18     MSVCRT:gshandler.obj
+ 0002:00000f20       $xdatasym                  000000018000df20     MSVCRT:amdsecgs.obj
+ 0002:00000f24       $unwind$__report_securityfailure 000000018000df24     MSVCRT:gs_report.obj
+ 0002:00000f2c       $unwind$__report_securityfailureEx 000000018000df2c     MSVCRT:gs_report.obj
+ 0002:00000f34       $unwind$__report_rangecheckfailure 000000018000df34     MSVCRT:gs_report.obj
+ 0002:00000f3c       $unwind$__report_gsfailure 000000018000df3c     MSVCRT:gs_report.obj
+ 0002:00000f44       $unwind$capture_current_context 000000018000df44     MSVCRT:gs_report.obj
+ 0002:00000f50       $unwind$capture_previous_context 000000018000df50     MSVCRT:gs_report.obj
+ 0002:00000f5c       $unwind$__raise_securityfailure 000000018000df5c     MSVCRT:gs_report.obj
+ 0002:00000f64       $unwind$?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 000000018000df64     MSVCRT:dll_dllmain.obj
+ 0002:00000fa0       $unwind$?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 000000018000dfa0     MSVCRT:dll_dllmain.obj
+ 0002:00000fa8       $unwind$?dllmain_crt_process_detach@@YAH_N@Z 000000018000dfa8     MSVCRT:dll_dllmain.obj
+ 0002:00000ffc       $unwind$?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018000dffc     MSVCRT:dll_dllmain.obj
+ 0002:00001004       $unwind$?fin$1@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018000e004     MSVCRT:dll_dllmain.obj
+ 0002:0000100c       $unwind$?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000e00c     MSVCRT:dll_dllmain.obj
+ 0002:00001014       $unwind$?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000e014     MSVCRT:dll_dllmain.obj
+ 0002:0000103c       $unwind$?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 000000018000e03c     MSVCRT:dll_dllmain.obj
+ 0002:00001044       $unwind$_DllMainCRTStartup 000000018000e044     MSVCRT:dll_dllmain.obj
+ 0002:00001054       $unwind$__security_init_cookie 000000018000e054     MSVCRT:gs_support.obj
+ 0002:00001060       $unwind$__get_entropy      000000018000e060     MSVCRT:gs_support.obj
+ 0002:00001068       $unwind$DllMain            000000018000e068     MSVCRT:dll_dllmain_stub.obj
+ 0002:00001070       $unwind$__scrt_initialize_default_local_stdio_options 000000018000e070     MSVCRT:default_local_stdio_options.obj
+ 0002:00001078       $unwind$atexit             000000018000e078     MSVCRT:utility.obj
+ 0002:00001080       $unwind$_onexit            000000018000e080     MSVCRT:utility.obj
+ 0002:00001088       $unwind$__scrt_is_nonwritable_in_current_image 000000018000e088     MSVCRT:utility.obj
+ 0002:000010a8       $unwind$__scrt_is_nonwritable_in_current_image$filt$0 000000018000e0a8     MSVCRT:utility.obj
+ 0002:000010b0       $unwind$__scrt_acquire_startup_lock 000000018000e0b0     MSVCRT:utility.obj
+ 0002:000010b8       $unwind$__scrt_release_startup_lock 000000018000e0b8     MSVCRT:utility.obj
+ 0002:000010c0       $unwind$__scrt_initialize_crt 000000018000e0c0     MSVCRT:utility.obj
+ 0002:000010c8       $unwind$__scrt_uninitialize_crt 000000018000e0c8     MSVCRT:utility.obj
+ 0002:000010d0       $unwind$__scrt_initialize_onexit_tables 000000018000e0d0     MSVCRT:utility.obj
+ 0002:000010d8       $unwind$__scrt_dllmain_exception_filter 000000018000e0d8     MSVCRT:utility.obj
+ 0002:000010ec       $unwind$__scrt_dllmain_before_initialize_c 000000018000e0ec     MSVCRT:utility.obj
+ 0002:000010f4       $unwind$__scrt_dllmain_after_initialize_c 000000018000e0f4     MSVCRT:utility.obj
+ 0002:000010fc       $unwind$__scrt_dllmain_uninitialize_c 000000018000e0fc     MSVCRT:utility.obj
+ 0002:00001104       $unwind$__scrt_dllmain_uninitialize_critical 000000018000e104     MSVCRT:utility.obj
+ 0002:0000110c       $unwind$__scrt_dllmain_crt_thread_attach 000000018000e10c     MSVCRT:utility.obj
+ 0002:00001114       $unwind$__scrt_dllmain_crt_thread_detach 000000018000e114     MSVCRT:utility.obj
+ 0002:0000111c       $unwind$?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 000000018000e11c     MSVCRT:utility.obj
+ 0002:00001124       $unwind$__scrt_get_show_window_mode 000000018000e124     MSVCRT:utility_desktop.obj
+ 0002:0000112c       $unwind$__scrt_is_managed_app 000000018000e12c     MSVCRT:utility_desktop.obj
+ 0002:00001134       $unwind$__scrt_fastfail    000000018000e134     MSVCRT:utility_desktop.obj
+ 0002:00001144       $unwind$__scrt_unhandled_exception_filter 000000018000e144     MSVCRT:utility_desktop.obj
+ 0002:00001150       $unwind$_RTC_Initialize    000000018000e150     MSVCRT:initsect.obj
+ 0002:0000115c       $unwind$_RTC_Terminate     000000018000e15c     MSVCRT:initsect.obj
+ 0002:00001168       $unwind$__castguard_check_failure_os_handled 000000018000e168     MSVCRT:guard_support.obj
+ 0002:00001170       $unwind$__castguard_slow_path_check_os_handled 000000018000e170     MSVCRT:guard_support.obj
+ 0002:00001178       $unwind$__isa_available_init 000000018000e178     MSVCRT:cpu_disp.obj
+ 0002:00001188       $xdatasym                  000000018000e188     MSVCRT:guard_dispatch.obj
+ 0002:00001190       $xdatasym                  000000018000e190     MSVCRT:guard_xfg_dispatch.obj
+ 0002:000011a0       .edata                     000000018000e1a0     parrot_keyboard_control_cgxe.exp
+ 0002:000011c8       rgpv                       000000018000e1c8     parrot_keyboard_control_cgxe.exp
+ 0002:000011d0       rgszName                   000000018000e1d0     parrot_keyboard_control_cgxe.exp
+ 0002:000011d8       rgwOrd                     000000018000e1d8     parrot_keyboard_control_cgxe.exp
+ 0002:000011dc       szName                     000000018000e1dc     parrot_keyboard_control_cgxe.exp
+ 0002:00001200       $N00001                    000000018000e200     parrot_keyboard_control_cgxe.exp
+ 0002:0000120c       $N00002                    000000018000e20c     parrot_keyboard_control_cgxe.exp
+ 0002:000017a0       .idata$6                   000000018000e7a0     libmx:libmx.dll
+ 0002:00001804       .idata$6                   000000018000e804     libmex:libmex.dll
+ 0002:0000199e       .idata$6                   000000018000e99e     libemlrt:libemlrt.dll
+ 0002:00001a38       .idata$6                   000000018000ea38     libmwcgxert:libmwcgxert.dll
+ 0002:00001bd4       .idata$6                   000000018000ebd4     kernel32:KERNEL32.dll
+ 0002:00001c62       .idata$6                   000000018000ec62     vcruntime:VCRUNTIME140.dll
+ 0002:00001db0       .idata$6                   000000018000edb0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00001dd0       .idata$6                   000000018000edd0     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00001df2       .idata$6                   000000018000edf2     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00001e12       .idata$6                   000000018000ee12     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0003:00000000       $SG20247                   000000018000f000     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000010       $SG20248                   000000018000f010     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000078       $SG20250                   000000018000f078     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000084       $SG20253                   000000018000f084     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000090       $SG20251                   000000018000f090     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000110       $SG20254                   000000018000f110     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000168       $SG20256                   000000018000f168     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000178       $SG20674                   000000018000f178     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000188       $SG20675                   000000018000f188     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:000001a0       $SG20257                   000000018000f1a0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000200       $SG20259                   000000018000f200     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000210       $SG20260                   000000018000f210     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000270       $SG20274                   000000018000f270     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000280       $SG20275                   000000018000f280     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:000002e0       $SG20729                   000000018000f2e0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:000002f0       $SG20730                   000000018000f2f0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000304       ?d_u@?1??mw__internal__call__step@@9@9 000000018000f304     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000308       emlrtRSI                   000000018000f308     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000320       b_emlrtRSI                 000000018000f320     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000338       c_emlrtRSI                 000000018000f338     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000350       d_emlrtRSI                 000000018000f350     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000368       e_emlrtRSI                 000000018000f368     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000380       f_emlrtRSI                 000000018000f380     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000398       g_emlrtRSI                 000000018000f398     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:000003b0       h_emlrtRSI                 000000018000f3b0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:000003c8       i_emlrtRSI                 000000018000f3c8     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:000003e0       emlrtMCI                   000000018000f3e0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:000003f8       ?b_u@?1??SystemCore_setup@@9@9 000000018000f3f8     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:0000042c       ?d_u@?1??SystemCore_setup@@9@9 000000018000f42c     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000438       ?b_u@?1??SystemCore_checkTunablePropChange@@9@9 000000018000f438     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000468       ?c_u@?1??mw__internal__call__reset@@9@9 000000018000f468     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000498       ?d_u@?1??mw__internal__call__reset@@9@9 000000018000f498     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:000004c4       ?f_u@?1??mw__internal__call__reset@@9@9 000000018000f4c4     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:000004d0       ?b_u@?1??mw__internal__call__step@@9@9 000000018000f4d0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000500       ?sv@?1??emlrt_marshallOut@@9@9 000000018000f500     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000510       $SG20676                   000000018000f510     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000520       $SG20677                   000000018000f520     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000534       $SG20694                   000000018000f534     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:0000053c       $SG20695                   000000018000f53c     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000548       $SG20696                   000000018000f548     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000560       $SG20697                   000000018000f560     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000578       ?fieldNames@?1??c_emlrt_marshallIn@@9@9 000000018000f578     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000588       $SG20731                   000000018000f588     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000598       $SG20732                   000000018000f598     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:000005a8       $SG20733                   000000018000f5a8     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:000005c0       $SG20734                   000000018000f5c0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:000005d8       $SG20784                   000000018000f5d8     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:000005e0       $SG20796                   000000018000f5e0     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:000005ec       $SG20810                   000000018000f5ec     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:000005f8       $SG20822                   000000018000f5f8     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000600       $SG20837                   000000018000f600     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000608       $SG20851                   000000018000f608     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000610       $SG20958                   000000018000f610     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000628       $SG20967                   000000018000f628     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000638       $SG20969                   000000018000f638     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000650       $SG20970                   000000018000f650     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000660       $SG20971                   000000018000f660     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00000688       $SG19628                   000000018000f688     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000006b8       $SG19633                   000000018000f6b8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000006f8       $SG19640                   000000018000f6f8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:0000072c       $SG19697                   000000018000f72c     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000734       $SG19701                   000000018000f734     parrot_keyboard_control_cgxe_registry.obj
+ 0003:0000073c       $SG21438                   000000018000f73c     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000740       $SG19647                   000000018000f740     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000774       $SG19707                   000000018000f774     parrot_keyboard_control_cgxe_registry.obj
+ 0003:0000077c       $SG21516                   000000018000f77c     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000780       $SG19652                   000000018000f780     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000007b8       $SG19695                   000000018000f7b8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000007c0       $SG19699                   000000018000f7c0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000007d0       $SG19703                   000000018000f7d0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000007d8       $SG19704                   000000018000f7d8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000007e0       $SG19705                   000000018000f7e0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000007e8       $SG19706                   000000018000f7e8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000007f8       $SG19708                   000000018000f7f8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000800       $SG19753                   000000018000f800     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000830       $SG19768                   000000018000f830     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000860       $SG19786                   000000018000f860     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000878       $SG19804                   000000018000f878     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000890       $SG19822                   000000018000f890     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000008a0       $SG19824                   000000018000f8a0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000008b0       $SG19826                   000000018000f8b0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000008c0       $SG19828                   000000018000f8c0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000008d0       $SG19830                   000000018000f8d0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000008e8       $SG19832                   000000018000f8e8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000900       $SG19846                   000000018000f900     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000928       _sfcnName                  000000018000f928     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000960       $SG19863                   000000018000f960     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000009d8       $SG20273                   000000018000f9d8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000009f8       $SG20288                   000000018000f9f8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000a08       $SG20479                   000000018000fa08     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000a10       $SG19868                   000000018000fa10     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000a88       $SG20274                   000000018000fa88     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000aa8       $SG20478                   000000018000faa8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000ae4       $SG20480                   000000018000fae4     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000af0       $SG20484                   000000018000faf0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000b38       $SG20485                   000000018000fb38     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000b40       $SG20486                   000000018000fb40     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000b48       $SG20488                   000000018000fb48     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000b50       $SG20487                   000000018000fb50     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000ba4       $SG20489                   000000018000fba4     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000bb0       $SG20511                   000000018000fbb0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000bf0       $SG20512                   000000018000fbf0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000bf8       $SG20513                   000000018000fbf8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000c00       $SG20517                   000000018000fc00     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000c48       $SG20518                   000000018000fc48     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000c50       $SG20519                   000000018000fc50     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000c58       $SG20521                   000000018000fc58     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000c60       $SG20520                   000000018000fc60     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000cb4       $SG20522                   000000018000fcb4     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000cc0       $SG20546                   000000018000fcc0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000d10       $SG20547                   000000018000fd10     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000d18       $SG20548                   000000018000fd18     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000d20       $SG20560                   000000018000fd20     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000d80       $SG20561                   000000018000fd80     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000d88       $SG20562                   000000018000fd88     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000d90       $SG20574                   000000018000fd90     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000df0       $SG20575                   000000018000fdf0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000df8       $SG20576                   000000018000fdf8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000e00       $SG20800                   000000018000fe00     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000e78       $SG21422                   000000018000fe78     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000e90       $SG20803                   000000018000fe90     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000f04       $SG21490                   000000018000ff04     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000f10       $SG20808                   000000018000ff10     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000f88       $SG21491                   000000018000ff88     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00000f90       $SG20816                   000000018000ff90     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001000       $SG21091                   0000000180010000     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001078       $SG21492                   0000000180010078     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001080       $SG21096                   0000000180010080     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000010f8       $SG21498                   00000001800100f8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001100       $SG21435                   0000000180010100     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001178       $SG21501                   0000000180010178     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001180       $SG21493                   0000000180010180     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000011f8       $SG21504                   00000001800101f8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001200       $SG21495                   0000000180010200     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001280       $SG21505                   0000000180010280     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001300       $SG21506                   0000000180010300     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001310       $SG21508                   0000000180010310     parrot_keyboard_control_cgxe_registry.obj
+ 0003:0000131c       $SG21510                   000000018001031c     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001324       $SG21512                   0000000180010324     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001330       $SG21514                   0000000180010330     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001340       $SG21519                   0000000180010340     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001428       $SG21637                   0000000180010428     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001458       $SG21638                   0000000180010458     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001460       $SG21639                   0000000180010460     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001468       $SG21641                   0000000180010468     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000014a0       $SG21642                   00000001800104a0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000014a8       $SG21643                   00000001800104a8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000014b0       $SG21646                   00000001800104b0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000014e8       $SG21647                   00000001800104e8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000014f0       $SG21648                   00000001800104f0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000014f8       $SG21650                   00000001800104f8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001530       $SG21651                   0000000180010530     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001538       $SG21652                   0000000180010538     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001540       $SG21654                   0000000180010540     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001578       $SG21655                   0000000180010578     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001580       $SG21656                   0000000180010580     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001588       $SG21659                   0000000180010588     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000015a8       $SG21661                   00000001800105a8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000015c0       $SG21662                   00000001800105c0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000015f8       $SG21663                   00000001800105f8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001600       $SG21664                   0000000180010600     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001608       $SG21796                   0000000180010608     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001628       $SG21801                   0000000180010628     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001640       $SG21797                   0000000180010640     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000016d0       $SG21802                   00000001800106d0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001760       $SG21806                   0000000180010760     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001778       $SG21821                   0000000180010778     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001798       $SG21826                   0000000180010798     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000017c0       $SG21807                   00000001800107c0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001850       $SG21811                   0000000180010850     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001870       $SG21812                   0000000180010870     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001900       $SG21816                   0000000180010900     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001920       $SG21817                   0000000180010920     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000019b0       $SG21822                   00000001800109b0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001a40       $SG21827                   0000000180010a40     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001ad0       $SG21831                   0000000180010ad0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001af8       $SG21846                   0000000180010af8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001b10       $SG21832                   0000000180010b10     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001ba0       $SG21836                   0000000180010ba0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001bc0       $SG21837                   0000000180010bc0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001c50       $SG21841                   0000000180010c50     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001c70       $SG21842                   0000000180010c70     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001d00       $SG21847                   0000000180010d00     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001d90       $SG21851                   0000000180010d90     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001db0       $SG21852                   0000000180010db0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001e40       $SG21856                   0000000180010e40     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001e60       $SG21857                   0000000180010e60     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001ef0       $SG21861                   0000000180010ef0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001f10       $SG21862                   0000000180010f10     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001fa0       $SG21866                   0000000180010fa0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00001fc0       $SG21867                   0000000180010fc0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00002050       $SG21871                   0000000180011050     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00002070       $SG21872                   0000000180011070     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00002100       $SG21876                   0000000180011100     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00002120       $SG21877                   0000000180011120     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000021b0       $SG21882                   00000001800111b0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000021c8       $SG21888                   00000001800111c8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000021e0       $SG21883                   00000001800111e0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00002270       $SG21889                   0000000180011270     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00002300       $SG21893                   0000000180011300     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00002310       $SG21894                   0000000180011310     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000023a0       $SG21898                   00000001800113a0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000023b8       $SG21960                   00000001800113b8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000023d0       $SG21899                   00000001800113d0     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00002460       $SG21907                   0000000180011460     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00002470       $SG21908                   0000000180011470     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00002500       $SG21912                   0000000180011500     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00002580       $SG21914                   0000000180011580     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00002600       $SG21918                   0000000180011600     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00002680       $SG21948                   0000000180011680     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00002798       $SG21970                   0000000180011798     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000027a8       $SG21982                   00000001800117a8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000027b8       $SG21992                   00000001800117b8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000027c8       $SG22004                   00000001800117c8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000027d8       $SG22014                   00000001800117d8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:000027e8       $SG22024                   00000001800117e8     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00002850       $SG20262                   0000000180011850     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00002851       $SG20263                   0000000180011851     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00002852       $SG20265                   0000000180011852     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00002853       $SG20266                   0000000180011853     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00002854       $SG20268                   0000000180011854     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00002855       $SG20269                   0000000180011855     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00002856       $SG20271                   0000000180011856     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00002857       $SG20272                   0000000180011857     m_3YttJ5tzdpTPtVQkledOMC.obj
+ 0003:00002858       $SG21486                   0000000180011858     parrot_keyboard_control_cgxe_registry.obj
+ 0003:00002860       GS_ExceptionRecord         0000000180011860     MSVCRT:gs_report.obj
+ 0003:00002900       GS_ContextRecord           0000000180011900     MSVCRT:gs_report.obj
+ 0003:00002dd0       ?__proc_attached@@3HA      0000000180011dd0     MSVCRT:dll_dllmain.obj
+ 0003:00002e10       ?is_initialized_as_dll@@3_NA 0000000180011e10     MSVCRT:utility.obj
+ 0003:00002e11       ?module_local_atexit_table_initialized@@3_NA 0000000180011e11     MSVCRT:utility.obj
+ 0003:00002e18       ?module_local_atexit_table@@3U_onexit_table_t@@A 0000000180011e18     MSVCRT:utility.obj
+ 0003:00002e30       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 0000000180011e30     MSVCRT:utility.obj
